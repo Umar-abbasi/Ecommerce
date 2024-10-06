@@ -51,6 +51,9 @@ p {
 body {
   width: 100%;
 }
+
+/* NAvbar */
+
 #header{
   display: flex;
   align-items: center;
@@ -58,6 +61,10 @@ body {
   padding: 20px 80px;
   background: #E3E6F3;
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.06) ;
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 #navbar{
   display: flex;
@@ -95,6 +102,9 @@ body {
   bottom: -4px;
   left: 0;
 }
+
+/* Hero */
+
 #hero{
   background-image: url("img/hero4.png");
   height: 90vh;
@@ -107,4 +117,76 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
+#hero h4{
+  padding-bottom: 15px;
+}
+
+#hero h1{
+  color: #088178;
+}
+
+#hero button{
+  background-image: url("img/button.png");
+  color: #088178;
+  background-color: transparent;
+  border: none;
+  padding: 14px 80px 14px 65px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+/* Features */
+#feature .fe-box{
+  width: 180px;
+  text-align: center;
+  padding: 25px 15px;
+  box-shadow: 20px 20px 34px rgba(0, 0, 0, 0.03);
+  border: 1px solid #cce7d0;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+#feature .fe-box:hover{
+  box-shadow: 10px 10px 54px rgba(0, 0, 0, 0.01);
+}
+#feature .fe-box img{
+  width: 100%;
+  margin-bottom:10px ;
+}
+#feature .fe-box h6{
+  padding: 9px 8px 6px 8px;
+  line-height: 1;
+  border-radius: 4px;
+  color: #088178;
+  background-color: #fddde4 ;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  display: inline-block;
+}
+#feature .fe-box:nth-child(2) h6{
+  background-color: #cdebbc;
+}
+#feature .fe-box:nth-child(3) h6{
+  background-color: #d1e8f2;
+}#feature .fe-box:nth-child(4) h6{
+  background-color: #cdd4f8;
+}#feature .fe-box:nth-child(5) h6{
+  background-color: #f6dbf6;
+}#feature .fe-box:nth-child(6) h6{
+  background-color: #fff2e5;
+}
+#feature{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
 
