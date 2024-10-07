@@ -1,5 +1,5 @@
 # Ecommerce
-My first ecommerce project
+My first FrontEnd project
 <br>
 creator: Umar Abbasi
 <br>
