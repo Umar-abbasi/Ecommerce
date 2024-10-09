@@ -66,6 +66,11 @@ button.normal{
   -moz-transition: 0.2s;
   -ms-transition: 0.2s;
   -o-transition: 0.2s;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
 }
 
 button.white {
@@ -407,4 +412,54 @@ button.white {
 }
 #banner3 .banner-box3{
   background-image: url(img/banner/b18.jpg);
+}
+#newsletter{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-image: url(img/banner/b14.png);
+  background-repeat: no-repeat;
+  background-position: 20% 30%;
+  background: #041e42;
+}
+#newsletter h4{
+  font-size: 22px;
+  font-weight: 700;
+  color: #fff;
+}
+#newsletter p{
+  font-size: 14px;
+  font-weight: 600;
+  color: #818ea0;
+}
+#newsletter p span{
+  color: #ffbd27;
+}
+
+#newsletter input{
+  height:3.125rem;
+  padding: 0 1.25rem;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  outline: none;
+  border-top-right-radius:0 ;
+  border-bottom-right-radius: 0;
+}
+#newsletter button{
+  background: #088178;
+  color: #fff;
+  white-space: nowrap;
+  border-top-left-radius:0 ;
+  border-bottom-left-radius: 0;
+}
+#newsletter .form{
+  display: flex;
+  width: 40%;
 }
