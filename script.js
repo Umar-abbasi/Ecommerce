@@ -13,3 +13,5 @@ if(close){
     nav.classList.remove('active');
     })
 }
+
+// Sproduct to change products
