@@ -713,6 +713,22 @@ footer .Copyright{
   z-index: -10;
 }
 
+
+/* About Us */
+#page-header.About-header{
+  background-image: url(img/about/banner.png);
+}
+#about-head img{
+  width: 50%;
+  height: auto;
+}
+#about-head{
+  display: flex;
+  align-items: center;
+}
+#about-head div{
+  padding-left: 40px;
+}
 @media (max-width:1050px){
   #hero {
     background-position: top 30% right 30%;
