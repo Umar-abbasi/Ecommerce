@@ -729,6 +729,27 @@ footer .Copyright{
 #about-head div{
   padding-left: 40px;
 }
+
+#about-app{
+  text-align: center;
+}
+#about-app .video{
+  width: 70%;
+  height: 100%;
+  margin: 30px auto 0 auto;
+}
+
+#about-app .video video{
+  width: 100%;
+  height: 100%;
+  border-radius: 40px ;
+  -webkit-border-radius: 40px ;
+  -moz-border-radius: 40px ;
+  -ms-border-radius: 40px ;
+  -o-border-radius: 40px ;
+}
+
+
 @media (max-width:1050px){
   #hero {
     background-position: top 30% right 30%;
@@ -747,6 +768,12 @@ footer .Copyright{
   #blog {
     padding: 150px 100px 0 100px;
   }
+
+  /* about */
+
+  #about-app .video {
+    width: 100%;
+}
 }
 @media (max-width:870px){
   .section-p1 {
@@ -861,6 +888,7 @@ footer .Copyright{
   padding: 150px 75px 0 75px;
 }
 
+  /* about */
 }
 
 
@@ -968,5 +996,25 @@ h1 {
 
 #blog .blog-details {
   width: 100%;
+}
+
+/* About  */
+
+#about-head {
+  flex-direction: column;
+}
+#about-head img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+#about-head div {
+  padding-left: 0px;
+}
+h1 {
+  font-size: 20px;
+}
+#about-app .video {
+  margin: 10px auto 0 auto;
 }
 }
