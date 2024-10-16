@@ -900,7 +900,50 @@ footer .Copyright{
 #cart table tbody td{
   font-size: 13px;
 }
+#cart-add{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#coupon{
+  width: 50%;
+  margin-bottom: 30px;
+}
+#coupon h3,#subtotal h3{
+  padding-bottom: 15px;
+}
+#coupon input{
+  padding: 10px 30px;
+  outline: none;
+  width: 60%;
+  margin-right: 10px;
+  border: 1px solid #e2e9e1;
+}
 
+#coupon button,#subtotal button{
+  background-color: #088178;
+  color: #fff;
+  padding: 12px 20px;
+}
+
+#subtotal {
+  width: 50%;
+  margin-bottom: 30px;
+  border: 1px solid #e2e9e1;
+  padding: 30px;
+}
+
+#subtotal table{
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+#subtotal table td{
+  width: 50%;
+  border: 1px solid #e2e9e1;
+  padding: 10px;
+  font-size: 13px;
+}
 
 
 
@@ -941,11 +984,14 @@ footer .Copyright{
   #form-details form {
     width: 60%;
 }
+#cart{
+  overflow-x: auto;
 }
+}
+
 @media (max-width:870px){
   .section-p1 {
     padding: 40px 40px;
-    
 }
 
   #navbar {
@@ -1063,6 +1109,10 @@ footer .Copyright{
   #form-details form {
     width: 50%;
     
+}
+
+#cart{
+  overflow-x: auto;
 }
 }
 
@@ -1207,5 +1257,17 @@ h1 {
 #form-details form {
   width: 100%;
   margin-bottom: 50px;
+}
+
+#cart-add {
+  flex-direction: column;
+}
+
+#coupon {
+  width: 100%;
+  }
+#subtotal {
+  width: 100%;
+  padding: 20px;
 }
 }
